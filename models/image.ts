@@ -18,8 +18,8 @@ Image.init({
     sequelize,
     modelName : 'Image',
     tableName : 'image',
-    charset : 'utf8mb4',
-    collate : 'utfmb4_general_ci',
+    charset: 'utf8',
+    collate: 'utf8_general_ci',
 })
 
 export const associate = (db:dbType)=>{
